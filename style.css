@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    background-color: blue;
+    color: white;
+    flex: 5;
+    margin-bottom: 5px;
+}
+
+.col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    background-color: blue;
+    color: white;
+    flex: 8;
+    margin-bottom: 5px;
+}
+
+.col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    background-color: blue;
+    color: white;
+    flex: 12;
+    margin-bottom: 5px;
+}
